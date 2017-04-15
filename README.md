@@ -1,7 +1,6 @@
-## angular2-seed
+## Angular2 Seed Project
 
-A simple starter project demonstrating the basic concepts of Angular 2.
-
+A template to start angular2 application development.
 
 ### Usage
 - Clone or fork this repository
