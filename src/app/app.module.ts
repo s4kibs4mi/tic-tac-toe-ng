@@ -5,10 +5,12 @@ import {AppComponent} from './app.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {BrowserModule} from '@angular/platform-browser';
 import {HttpModule} from '@angular/http';
+import {TicTacToeComponent} from './tictactoe/tictactoe.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TicTacToeComponent
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,7 @@
 {
-  "name": "angular2-seed",
+  "name": "tic-tac-toe-ng",
   "version": "1.0.0",
-  "description": "A simple starter Angular2 project",
+  "description": "A tic tac toe game implemented while learning Angular2",
   "scripts": {
     "build": "webpack --progress",
     "watch": "npm run build -- --watch",
@@ -9,8 +9,7 @@
     "start": "npm run server"
   },
   "contributors": [
-    "Rob Wormald <robwormald@gmail.com>",
-    "PatrickJS <github@gdi2290.com>"
+    "Sakib Sami <s4kibs4mi@gmail.com>"
   ],
   "license": "MIT",
   "dependencies": {
@@ -25,7 +24,7 @@
     "@angular/platform-server": "~2.2.1",
     "@angular/router": "~3.2.1",
     "@angular/upgrade": "~2.2.1",
-    "angular2-in-memory-web-api": "0.0.21",
+    "angular2-in-memory-web-api": "^0.0.21",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
     "ie-shim": "^0.1.0",
@@ -48,16 +47,14 @@
   },
   "keywords": [
     "Angular2",
-    "angular2-seed",
-    "official angular 2 seed",
-    "official angular2 seed"
+    "TicTacToe game"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/s4kibs4mi/angular2-seed.git"
+    "url": "git+https://github.com/s4kibs4mi/tic-tac-toe-ng.git"
   },
   "bugs": {
-    "url": "https://github.com/s4kibs4mi/angular2-seed/issues"
+    "url": "https://github.com/s4kibs4mi/tic-tac-toe-ng/issues"
   },
-  "homepage": "https://github.com/s4kibs4mi/angular2-seed#readme"
+  "homepage": "https://github.com/s4kibs4mi/tic-tac-toe-ng#readme"
 }

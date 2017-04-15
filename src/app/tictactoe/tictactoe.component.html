@@ -1,0 +1,26 @@
+<div class="col-lg-12">
+  <div class="page-title">
+    <div style="margin-top: 20px;">
+      <h1>TicTacToe Game with Angular2</h1>
+    </div>
+  </div>
+
+  <div class="bs-component">
+    <div class="panel panel-primary">
+      <div class="panel-heading">{{whomToPlay}}'s turn</div>
+      <div class="panel-body">
+        <div class="bs-component">
+          <button class="btn btn-default" (click)="onResetClick()" style="width: 33%; margin: 1px;">Reset</button>
+
+          <div class="btn-group btn-group-justified" *ngFor="let box of totalTicBoxes">
+            <button class="btn btn-default" *ngFor="let model of box" (click)="onBoxClick($event)"
+                    name="{{model.index}}"
+                    style="width: 33%; margin: 1px;">
+              {{model.name}}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
