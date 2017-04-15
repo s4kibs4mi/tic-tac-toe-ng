@@ -1,6 +1,6 @@
-## Angular2 Seed Project
+## TicTaToe game with Angular2
 
-A template to start angular2 application development.
+A simple tictactoe game while learning Angular2
 
 ### Usage
 - Clone or fork this repository
